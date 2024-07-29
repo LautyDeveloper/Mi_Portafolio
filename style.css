@@ -1,0 +1,19 @@
+:root {
+  --rojoOscuro: #660708;
+  --negro: #0b090a;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url(media/Background/8263358842_a2748b2170_b.jpg);
+}
+
+.caja-blur {
+  background-color: transparent;
+  background: rgba(11, 9, 10, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 10px;
+  border: 4px solid var(--rojoOscuro);
+}
