@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 :root {
   --rojoOscuro: #660708;
   --negro: #0b090a;
@@ -24,6 +25,7 @@ body {
 .presentacion {
   padding: 0 0 0 20px;
   justify-content: flex-start;
+  color: white;
 }
 .presentacion .content {
   display: flex;
@@ -50,6 +52,61 @@ body {
   transition: all 0.2s ease-in;
 }
 .presentacion .content button:hover {
+  background-color: var(--rojoClaro);
+  box-shadow: 2px 2px 20px rgb(125, 125, 125);
+}
+.social .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.social .content .redes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30%;
+  width: 70%;
+}
+.social .content .redes .red {
+  background-color: rgb(22, 22, 22);
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  display: grid;
+  place-items: center;
+  box-shadow: 2px 2px 20px rgb(50, 50, 50);
+  transition: all ease-in 0.1s;
+}
+.social .content .redes .red i {
+  color: white;
+  font-size: 2.4rem;
+  transition: all ease-in 0.1s;
+}
+.social .content .redes .red:hover {
+  background-color: rgb(30, 30, 30);
+  box-shadow: 2px 2px 40px rgb(68, 68, 68);
+  transform: scale(1.1);
+}
+.social .content .redes .red:hover i {
+  color: var(--rojoClaro);
+}
+
+.social .content button {
+  width: 70%;
+  height: 20%;
+  background-color: var(--rojoOscuro);
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  box-shadow: 2px 2px 10px rgb(72, 72, 72);
+  transition: all 0.2s ease-in;
+}
+.social .content button:hover {
   background-color: var(--rojoClaro);
   box-shadow: 2px 2px 20px rgb(125, 125, 125);
 }
