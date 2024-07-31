@@ -17,6 +17,7 @@ body {
   place-items: center;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 300px 250px 300px 250px 250px 250px 250px 250px;
+  gap: 15px;
 }
 
 .caja {

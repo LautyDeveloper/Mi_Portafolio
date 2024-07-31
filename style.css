@@ -167,3 +167,75 @@ body {
   transform: scale(1.2);
   color: var(--rojoClaro);
 }
+.proyecto1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(media/Proyectos/MainProject/main-project.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.proyecto1:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(media/Proyectos/MainProject/main-project.png);
+}
+.proyecto2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(media/Proyectos/MainProject/main-project.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.proyecto2:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(media/Proyectos/MainProject/main-project.png);
+}
+.proyecto3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(media/Proyectos/MainProject/main-project.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.proyecto3:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(media/Proyectos/MainProject/main-project.png);
+}
+.proyecto .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 90%;
+  width: 90%;
+  transition: all 0.2s ease-out;
+}
+.proyecto:hover {
+  transform: scale(1.05);
+}
+.proyecto .content .texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.proyecto .content .texto h3 {
+  font-size: 2rem;
+  color: var(--rojoClaro);
+}
+.proyecto .content .texto p {
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: white;
+}
+.proyecto .content .botones {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.proyecto .content .botones a {
+  text-decoration: none;
+  color: var(--rojoOscuro);
+  font-size: 2rem;
+}
