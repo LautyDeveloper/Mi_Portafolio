@@ -48,7 +48,6 @@ body {
 .main-project {
   grid-column: 1/4;
   grid-row: 3/4;
-  background-color: pink;
 }
 .proyecto1 {
   grid-column: 1/2;

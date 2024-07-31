@@ -110,3 +110,60 @@ body {
   background-color: var(--rojoClaro);
   box-shadow: 2px 2px 20px rgb(125, 125, 125);
 }
+
+.main-project {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(media/Proyectos/MainProject/main-project.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all ease-in-out 0.3s;
+}
+.main-project:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
+    url(media/Proyectos/MainProject/main-project.png);
+}
+.main-project .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 95%;
+  height: 80%;
+  opacity: 0;
+  pointer-events: none;
+  transition: all ease-in-out 0.3s;
+}
+
+.main-project:hover .content {
+  opacity: 1;
+  pointer-events: inherit;
+}
+.main-project .content .texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.main-project .content .texto h2 {
+  font-size: 3rem;
+}
+.main-project .content .texto p {
+  font-size: 1.5rem;
+}
+.main-project .content .botones {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-project .content .botones i {
+  font-size: 2.5rem;
+  color: var(--rojoOscuro);
+  transition: all ease-in 0.1s;
+}
+.main-project .content .botones i:hover {
+  transform: scale(1.2);
+  color: var(--rojoClaro);
+}
