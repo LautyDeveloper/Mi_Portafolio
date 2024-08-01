@@ -239,3 +239,16 @@ body {
   color: var(--rojoOscuro);
   font-size: 2rem;
 }
+.tech-stack .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 90%;
+  width: 90%;
+}
+.tech-stack .content img {
+  height: 35%;
+  width: 20%;
+  object-fit: contain;
+}
